@@ -112,14 +112,14 @@ describe("units", () => {
     });
     it("updates an existing display", () => {
       units.setDisplay("achi", {
-        format: "{amount} TXACH",
+        format: "{amount} TACH",
         fractionDigits: 0
       });
 
       const result = units.getDisplay("achi");
 
       expect(result).toEqual({
-        format: "{amount} TXACH",
+        format: "{amount} TACH",
         fractionDigits: 0
       });
     });
