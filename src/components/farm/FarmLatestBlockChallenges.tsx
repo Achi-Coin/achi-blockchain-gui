@@ -71,7 +71,7 @@ export default function FarmLatestBlockChallenges() {
           *Want to explore Achi’s blocks further? Check out{' '}
           <Link
             color="primary"
-            href="https://www.achiexplorer.com/"
+            href="https://achihub.com/"
             target="_blank"
           >
             Achi Explorer
